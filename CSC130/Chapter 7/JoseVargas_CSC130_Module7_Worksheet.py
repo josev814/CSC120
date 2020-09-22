@@ -1,3 +1,22 @@
+"""
+Student: Jose' Vargas
+Activity:
+1. Define a list object that hold the grade point averages of 5 students 3.4, 4, 2.8. 3, 3.85
+2. Change the gpa of the second student of the list object in (1) to 2.75
+3. Change the gpa of the last student of the list object in (1) to 3.99. Use the negative index
+4. Define a list object that will hold 20 random numbers ranging from 0 to 6
+5. Use a for loop to display the list object in (4)
+6. Use a for loop to count and display the number of times 5 appears in the list object in (4)
+7. Define a list object to hold the items 29,23,34,23,45,67,23,12,34,56,23 and answer the following questions:
+ a. Write a statement to display items with index between 3 and 7
+ b. Write a statement to display the last three items using negative index
+ c. Write a statement to display the first 3 items
+ d. Write a statement to display all the items
+ e. Write a statement to display items whose index values are odd
+ f. Write a statement to display items whose index values are even
+ g. Write a for loop to display items whose index values are divisible by 3
+"""
+
 import random
 gradePointAverages = [3.4, 4, 2.8, 3.85]
 
