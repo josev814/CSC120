@@ -47,16 +47,16 @@ while monthly_budget <= 0:
         monthly_budget = 0
         print('Bad value.  Use a positive float')
 
-another_entry = 'y'
-while another_entry[0].lower() == 'y':
+sentinel_end = 1
+print('To stop entering expenses enter 0 are your expense.')
+while sentinel_end != 0:
     try:
         expense = float(input('Enter an expense: $'))
         if expense == 0:
-            break
+            sentinel_end = 0
         elif expense <= 0:
             raise ValueError
         TOTAL_EXPENSES += expense
-        another_entry = input('Would you like to enter another expense? (y|n) ')
     except ValueError:
         print('Bad value.  Use a positive float')
 
