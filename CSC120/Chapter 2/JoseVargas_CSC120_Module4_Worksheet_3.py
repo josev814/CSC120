@@ -1,6 +1,6 @@
 print("""Write the following mathematical expressions in Python. Assume, x, y, z, a, b, c are variables. 
 xy(z+a) + b3 
-(x+y)(a+b+2)5 
+(x+y)(a+b+2)^5 
 X2y + ab3 """)
 
 x, y, z, a, b, c = 11, 12, 13, 1, 2, 3
