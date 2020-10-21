@@ -8,7 +8,7 @@ print(
     'Python code:',
     'print(x*y*(z+a)+b**3, x+y*((a+b+2)**5), (x**2)*y+a*(b**3))'
 )
-print('Answer:', x*y*(z+a)+b**3, x+y*((a+b+2)**5), (x**2)*y+a*(b**3))
+print('Answer:', x*y*(z+a)+b**3, (x+y)*(a+b+2)**5, (x**2)*y+a*(b**3))
 print()
 print("""Write a program that will prompt the user to enter the size of square with an inscribed circle. The program will calculate the area of the shaded region using the formula:  
 
