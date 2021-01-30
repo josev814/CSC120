@@ -7,12 +7,9 @@ Assignment: TakeHome Exercise 4-1
 Date: 2021-01-30
 """
 """Question 1"""
-from math import sqrt
-
-
-def get_sqrt(number):
-    num_sqrt = sqrt(number)
-    return num_sqrt
+def get_sqr_value(number):
+    num_sqr_val = number**2
+    return num_sqr_val
 
 
 def is_true(val):
@@ -25,7 +22,7 @@ question = 'Enter a Number: '
 continue_question = 'Do you want to continue? answer yes/no '
 while contin:
     get_number = int(input(question))
-    print('The square root of the entered number is {:.0f}'.format(get_sqrt(get_number)))
+    print('The square the entered number is {:.0f}'.format(get_sqr_value(get_number)))
     continue_input = input(continue_question)
     contin = is_true(continue_input)
 
